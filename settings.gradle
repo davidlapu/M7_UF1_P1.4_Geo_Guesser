@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "M7_UF1_P1.4_Geo_Guesser"

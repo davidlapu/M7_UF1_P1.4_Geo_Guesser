@@ -17,7 +17,12 @@ public class QuestionModel {
     }
 
     public String[] getPossibleAnswers() {
+        //todo make random
         return possibleAnswers;
+    }
+
+    public boolean isCapital(String capital) {
+            return capital.equals(possibleAnswers[0]);
     }
 
 }

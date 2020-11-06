@@ -22,8 +22,7 @@ public class CapitalsQuestions {
         String country = getRandomCountry();
         String trueCapital = countriesData.get(country);
         ArrayList<String> randCapitals = get3randIncorretCapitals(trueCapital);
-        String[] possibleAnswers = {randCapitals.get(0), randCapitals.get(1), randCapitals.get(2), trueCapital};
-        //todo make random
+        String[] possibleAnswers = {trueCapital, randCapitals.get(0), randCapitals.get(1), randCapitals.get(2)};
 
         QuestionModel questionModel = new QuestionModel(country, possibleAnswers);
         countriesData.remove(country);

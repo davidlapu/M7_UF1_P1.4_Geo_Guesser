@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">M7_UF1_P1.4_Geo_Guesser</string>
     <string name="title">GeoGuesser</string>
+    <string name="capital_question">Cual es la capital de %1$s?</string>
+    <string-array name="capitals">
+        <item>Madird</item>
+        <item>Paris</item>
+        <item>Londres</item>
+        <item>Berlín</item>
+        <item>Varsovia</item>
+        <item>Tirana</item>
+    </string-array>
+    <string-array name="countries">
+        <item>España</item>
+        <item>Francia</item>
+        <item>Reino Unido</item>
+        <item>Alemania</item>
+        <item>Polonia</item>
+        <item>Albania</item>
+    </string-array>
 </resources>

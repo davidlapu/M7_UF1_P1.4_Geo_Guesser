@@ -1,18 +1,29 @@
 package cat.itb.m7_uf1_p14_geo_guesser;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModel;
-import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    QuizViewModel quizViewModel;
+    private CapitalsQuestions capitalsQuestions;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        quizViewModel = new ViewModelProvider(this).get(QuizViewModel.class);
+
+        capitalsQuestions = new CapitalsQuestions(getResources().getStringArray(R.array.capitals),
+                getResources().getStringArray(R.array.countries));
+
+        QuestionModel as = capitalsQuestions.getQuestion();
+
+        Toast.makeText(this, as.getCountry(),Toast.LENGTH_LONG).show();
+        Toast.makeText(this, as.getPossibleAnswers()[0],Toast.LENGTH_LONG).show();
+        Toast.makeText(this, as.getPossibleAnswers()[1],Toast.LENGTH_LONG).show();
+        Toast.makeText(this, as.getPossibleAnswers()[2],Toast.LENGTH_LONG).show();
+        Toast.makeText(this,  as.getPossibleAnswers()[3],Toast.LENGTH_LONG).show();
+
+
     }
 }

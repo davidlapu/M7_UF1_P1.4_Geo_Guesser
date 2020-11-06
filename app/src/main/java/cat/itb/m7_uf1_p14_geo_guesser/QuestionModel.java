@@ -1,19 +1,23 @@
 package cat.itb.m7_uf1_p14_geo_guesser;
 
 public class QuestionModel {
-    private String question, answer, hint;
+    private String country;
+    private String[] possibleAnswers = new String[4];
 
-    public QuestionModel(String question, String answer) {
-        this.question = question;
-        this.answer = answer;
+    public QuestionModel() {
     }
 
-    public String getQuestion() {
-        return question;
+    public QuestionModel(String country, String[] possibleAnswers) {
+        this.country = country;
+        this.possibleAnswers = possibleAnswers;
     }
 
-    public String getAnswer() {
-        return answer;
+    public String getCountry() {
+        return country;
+    }
+
+    public String[] getPossibleAnswers() {
+        return possibleAnswers;
     }
 
 }

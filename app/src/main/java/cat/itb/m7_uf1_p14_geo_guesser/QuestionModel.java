@@ -1,15 +1,14 @@
 package cat.itb.m7_uf1_p14_geo_guesser;
 
 public class QuestionModel {
-    private String country;
-    private String[] possibleAnswers = new String[4];
+    private final String country;
+    private final String[] possibleAnswers;
+    private final String correctAnswer;
 
-    public QuestionModel() {
-    }
-
-    public QuestionModel(String country, String[] possibleAnswers) {
+    public QuestionModel(String country, String[] possibleAnswers, String correctAnswer) {
         this.country = country;
         this.possibleAnswers = possibleAnswers;
+        this.correctAnswer = correctAnswer;
     }
 
     public String getCountry() {
@@ -17,12 +16,11 @@ public class QuestionModel {
     }
 
     public String[] getPossibleAnswers() {
-        //todo make random
         return possibleAnswers;
     }
 
     public boolean isCapital(String capital) {
-            return capital.equals(possibleAnswers[0]);
+            return capital.equals(correctAnswer);
     }
 
 }

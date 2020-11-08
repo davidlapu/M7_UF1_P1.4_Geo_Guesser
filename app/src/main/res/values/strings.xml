@@ -1,21 +1,121 @@
 <resources>
     <string name="app_name">M7_UF1_P1.4_Geo_Guesser</string>
     <string name="title">GeoGuesser</string>
-    <string name="capital_question">Cual es la capital de %1$s?</string>
-    <string-array name="capitals">
-        <item>Madird</item>
-        <item>Paris</item>
-        <item>Londres</item>
-        <item>Berlín</item>
-        <item>Varsovia</item>
-        <item>Tirana</item>
-    </string-array>
+    <string name="capital_question">What is the capital of %1$s?</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect!</string>
+    <string name="hint">Hint</string>
+    <string name="hintText">The name of the capital begins with %1$s</string>
+    <string name="no_more_hints">You have no more hints left</string>
+    <string name="dialog_title">You have finished the quiz</string>
+    <string name="dialog_text">Your score was: %1$s/\100</string>
+    <string name="dialog_finish">Finish</string>
+
     <string-array name="countries">
-        <item>España</item>
-        <item>Francia</item>
-        <item>Reino Unido</item>
-        <item>Alemania</item>
-        <item>Polonia</item>
         <item>Albania</item>
+        <item>Andorra</item>
+        <item>Armenia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Bulgaria</item>
+        <item>Croatia</item>
+        <item>Cyprus</item>
+        <item>Czechia</item>
+        <item>Denmark</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Kazakhstan</item>
+        <item>Kosovo</item>
+        <item>Latvia</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Malta</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Montenegro</item>
+        <item>Netherlands</item>
+        <item>Macedonia</item>
+        <item>Norway</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>San Marino</item>
+        <item>Serbia</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United Kingdom</item>
+        <item>Vatican City</item>
+    </string-array>
+
+    <string-array name="capitals">
+        <item>Tirana</item>
+        <item>Andorra la Vella</item>
+        <item>Yerevan</item>
+        <item>Vienna</item>
+        <item>Baku</item>
+        <item>Minsk</item>
+        <item>Brussels</item>
+        <item>Sarajevo</item>
+        <item>Sofia</item>
+        <item>Zagreb</item>
+        <item>Nicosia</item>
+        <item>Prague</item>
+        <item>Copenhagen</item>
+        <item>Tallinn</item>
+        <item>Helsinki</item>
+        <item>Paris</item>
+        <item>Tbilisi</item>
+        <item>Berlin</item>
+        <item>Athens</item>
+        <item>Budapest</item>
+        <item>Reykjavik</item>
+        <item>Dublin</item>
+        <item>Rome</item>
+        <item>Nur-Sultan</item>
+        <item>Pristina</item>
+        <item>Riga</item>
+        <item>Vaduz</item>
+        <item>Vilnius</item>
+        <item>Luxembourg </item>
+        <item>Valletta</item>
+        <item>Chisinau</item>
+        <item>Monaco</item>
+        <item>Podgorica</item>
+        <item>Amsterdam</item>
+        <item>Skopje</item>
+        <item>Oslo</item>
+        <item>Warsaw</item>
+        <item>Lisbon</item>
+        <item>Bucharest</item>
+        <item>Moscow</item>
+        <item>San Marino</item>
+        <item>Belgrade</item>
+        <item>Bratislava</item>
+        <item>Ljubljana</item>
+        <item>Madrid</item>
+        <item>Stockholm</item>
+        <item>Bern</item>
+        <item>Ankara</item>
+        <item>Kyiv</item>
+        <item>London</item>
+        <item>Vatican City</item>
     </string-array>
 </resources>
